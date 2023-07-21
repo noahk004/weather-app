@@ -1,3 +1,5 @@
+.Conf.py
+
 # Django #
 *.log
 *.pot

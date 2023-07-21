@@ -4,10 +4,10 @@ from django.http import HttpResponse
 import string
 import datetime as dt
 import requests
-
+import Conf
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "687ce9784f8f3fd53cf7268a700febec"
+API_KEY = Conf.SECURE_API_KEY
 CITY = "Seattle"
 
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
