@@ -1,5 +1,6 @@
 # Weather App
 This app tells you the current weather in Seattle, WA.
+Built with Django framework.
 
 ## Get Started
 1. Go to https://openweathermap.org/
