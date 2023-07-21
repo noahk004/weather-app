@@ -1,4 +1,4 @@
-# weather-app
+# Weather App
 This app tells you the current weather in Seattle, WA.
 
 ## Get Started
