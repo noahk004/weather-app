@@ -1,1 +1,1 @@
-SECURE_API_KEY = ''
+SECURE_API_KEY = '3'
