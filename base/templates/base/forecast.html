@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+
+
+{% block content %}
+<h1>Forecast - {{ CITY }}, {{ country }}</h1>
+
+<p>Weather in {{ CITY }}: {{ description }}</p>
+<p>Temperature in {{ CITY }}: {{ temp_celsius }}°C or {{ temp_fahrenheit }}°F</p>
+<p>Temperature in {{ CITY }} feels like: {{ feels_like_celsius }}°C or {{ feels_like_fahrenheit }}°F</p>
+<p>Humidity in {{ CITY }}: {{ humidity }}%</p>
+<p>Sun rises in {{ CITY }} at: {{ sunrise_time }} local time</p>
+<p>Sun sets in {{ CITY }} at: {{ sunset_time }} local time</p>
+
+{% endblock %}
